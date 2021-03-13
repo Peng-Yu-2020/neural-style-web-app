@@ -33,10 +33,10 @@ style_image = Image.open('images/style-images/' + style_name + '.jpg')
 
 
 
-st.write("### Souce Imagge:")
+st.write("### Souce Image:")
 st.image(img, width=400)
 st.write("---")
-st.write("### Style Imagge:")
+st.write("### Style Image:")
 st.image(style_image, width=400)
 
 
